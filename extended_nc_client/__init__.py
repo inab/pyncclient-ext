@@ -32,4 +32,4 @@ __copyright__ = '© 2022 Barcelona Supercomputing Center (BSC), ES'
 __license__ = 'MIT'
 
 # https://www.python.org/dev/peps/pep-0396/
-__version__ = '0.1.0'
+__version__ = '0.1.1'

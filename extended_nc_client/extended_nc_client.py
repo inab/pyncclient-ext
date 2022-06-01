@@ -3,13 +3,14 @@
 import os
 import sys
 import time
-from typing import Final, Mapping, MutableMapping, Optional, Sequence
+from typing import Mapping, MutableMapping, Optional, Sequence
 import urllib.parse
 import uuid
 import xml.etree.ElementTree as ET
 
 from nextcloud_client import nextcloud_client   # type: ignore[import]
 import six
+from typing_extensions import Final
 
 class ExtendedNextcloudClient(nextcloud_client.Client):
     """
