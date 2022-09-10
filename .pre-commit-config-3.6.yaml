@@ -13,6 +13,7 @@ repos:
       - id: mypy
         exclude: ^tests/
         args: [--strict]
+        additional_dependencies: [types-setuptools, types-six]
 
   - repo: https://github.com/ambv/black
     rev: 22.6.0
