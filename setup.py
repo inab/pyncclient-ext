@@ -58,10 +58,9 @@ setuptools.setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/inab/pyncclient-ext",
-	project_urls={
-		"Bug Tracker": "https://github.com/inab/pyncclient-ext/issues"
-	},
+    project_urls={"Bug Tracker": "https://github.com/inab/pyncclient-ext/issues"},
     packages=setuptools.find_packages(),
+    package_data={"extended_nc_client": ["py.typed"]},
     install_requires=requirements,
     classifiers=[
         "Programming Language :: Python :: 3",
@@ -69,5 +68,5 @@ setuptools.setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
-	python_requires=">=3.6",
+    python_requires=">=3.6",
 )
